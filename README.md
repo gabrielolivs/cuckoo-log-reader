@@ -29,9 +29,10 @@ cuckoo-log-reader/
 
 
 ## 🚀 Como usar
-
+```bash
 docker build -t cuckoo-log-reader .
 docker run -it --rm -v $(pwd):/app cuckoo-log-reader
+```
 
 ## 🚀 Exemplo de uso
 
